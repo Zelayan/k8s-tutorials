@@ -1,0 +1,15 @@
+auth:
+  rootPassword: "123456"
+
+primary:
+  persistence:
+    size: 2Gi
+    enabled: true
+
+secondary:
+  replicaCount: 2
+  persistence:
+    size: 2Gi
+    enabled: true
+
+architecture: replication
